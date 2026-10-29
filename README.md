@@ -1,105 +1,106 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0B2D5C,100:06B6D4&text=CYBERSECURITY%20PORTFOLIO&fontColor=FFFFFF&fontSize=35&fontAlignY=38&desc=ETHICAL%20HACKING%20%7C%20BUG%20BOUNTY%20%7C%20BLUE%20TEAM&descSize=14&descAlignY=58&animation=fadeIn" width="100%" alt="Cybersecurity portfolio banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:071A2C,50:123B5D,100:087E8B&text=CYBERSECURITY%20PORTFOLIO&fontColor=FFFFFF&fontSize=34&fontAlignY=38&desc=PYTHON%20%7C%20BLUE%20TEAM%20%7C%20ETHICAL%20HACKING&descSize=13&descAlignY=58" width="100%" alt="Cybersecurity portfolio banner"/>
 
-<br/>
+### Learn. Build. Test. Document. Improve.
 
-<a href="https://github.com/VenkatSec">
-  <img src="https://img.shields.io/badge/GitHub-Portfolio-0B1220?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub portfolio"/>
-</a>
-<a href="https://github.com/VenkatSec?tab=repositories">
-  <img src="https://img.shields.io/badge/Security-Projects-0B1220?style=for-the-badge&logo=kalilinux&logoColor=00E5FF" alt="Security projects"/>
-</a>
-<a href="https://github.com/VenkatSec/password-policy-hashing-lab">
-  <img src="https://img.shields.io/badge/Python-Project-0B1220?style=for-the-badge&logo=python&logoColor=38BDF8" alt="Python project"/>
-</a>
+**Building practical cybersecurity skills through hands-on projects.**
 
-<br/><br/>
-
-### `LEARN • BUILD • TEST • SECURE`
-
-*Developing practical cybersecurity skills, one project at a time.*
+[GitHub Profile](https://github.com/VenkatSec) · [All Repositories](https://github.com/VenkatSec?tab=repositories)
 
 </div>
 
 ---
 
-## <span style="color:#22D3EE">◈ ABOUT ME</span>
+## About
 
-I'm building a practical cybersecurity portfolio focused on understanding security weaknesses, strengthening defensive capabilities, and documenting what I learn through hands-on projects.
+I'm a cybersecurity fresher building a practical portfolio through Python projects, security labs, and responsible security research.
 
-My goal is to develop strong foundations for entry-level cybersecurity roles through consistent learning, testing, and responsible security research.
+My goal is to develop the technical foundations and analytical skills needed for an entry-level cybersecurity role, with a particular interest in **SOC operations, Blue Team security, and security analysis**.
 
-## <span style="color:#22D3EE">◈ AREAS OF FOCUS</span>
+I focus on learning by building, testing my work, documenting results, and understanding the limitations of the tools I use.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## Focus Areas
 
-### 🔹 Ethical Hacking
-Authorized security testing, vulnerability assessment, and understanding common security weaknesses.
+| Area | Current learning focus |
+|---|---|
+| **Blue Team & SOC** | Security analysis, threat indicators, incident response fundamentals |
+| **Python for Security** | Automation, analysis tools, testing, and reporting |
+| **Network Security** | TCP ports, service identification, network reconnaissance in authorized labs |
+| **Application Security** | Authentication, password security, web and API security fundamentals |
+| **Ethical Hacking & Bug Bounty** | Scope-aware testing, vulnerability assessment, responsible disclosure |
 
-### 🔹 Bug Bounty Hunting
-Web application security, API security, scope assessment, and responsible vulnerability disclosure.
+## Portfolio Projects
 
-</td>
-<td width="50%" valign="top">
+I've completed the following four projects as part of my planned 18-project cybersecurity portfolio.
 
-### 🔹 Blue Team & SOC
-Security monitoring, threat detection, log analysis, and incident response.
+### 01 — Password Policy & Hashing Lab
 
-### 🔹 Application Security
-Secure application design, password security, and security testing.
+**Focus:** Password security · Python · Unit testing
 
-</td>
-</tr>
-</table>
+A Python lab demonstrating password policy validation, salted password hashing using `scrypt`, password verification, and automated tests.
 
-## <span style="color:#22D3EE">◈ FEATURED PROJECT</span>
+[View Project →](https://github.com/VenkatSec/password-policy-hashing-lab)
 
-<a href="https://github.com/VenkatSec/password-policy-hashing-lab">
-  <img src="https://img.shields.io/badge/01-PASSWORD%20POLICY%20%26%20HASHING-0B1220?style=for-the-badge&logo=python&logoColor=00E5FF" alt="Password Policy and Hashing Lab"/>
-</a>
+### 02 — Cryptography Basics with Python
 
-**Password Policy and Hashing Lab**
+**Focus:** Encryption · AES-256-GCM · RSA-OAEP
 
-A Python security project demonstrating password policy validation, password hashing with `scrypt`, password verification, and automated unit testing.
+A hands-on demonstration of symmetric and asymmetric encryption using Python's `cryptography` library, with automated tests for core operations.
 
-- Password policy validation
-- Salted password hashing
-- Password verification
-- Automated unit tests
+[View Project →](https://github.com/VenkatSec/cryptography-basics-python)
 
-[**↗ Explore the repository**](https://github.com/VenkatSec/password-policy-hashing-lab)
+### 03 — Network Scanning with Nmap
 
-## <span style="color:#22D3EE">◈ TECH STACK</span>
+**Focus:** Networking · Nmap · Service identification
 
-<p>
-<img src="https://img.shields.io/badge/Python-0B1220?style=for-the-badge&logo=python&logoColor=38BDF8" alt="Python"/>
-<img src="https://img.shields.io/badge/Git-0B1220?style=for-the-badge&logo=git&logoColor=F97316" alt="Git"/>
-<img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"/>
-<img src="https://img.shields.io/badge/Linux-0B1220?style=for-the-badge&logo=linux&logoColor=FACC15" alt="Linux"/>
-</p>
+An authorized local scanning lab exploring TCP port scanning, service detection, observed results, and responsible security documentation.
 
-## <span style="color:#22D3EE">◈ MY WORKFLOW</span>
+[View Project →](https://github.com/VenkatSec/network-scanning-nmap)
 
-<div align="center">
+### 04 — Phishing Email Analysis Lab
 
-`01 LEARN` &nbsp; ➜ &nbsp; `02 BUILD` &nbsp; ➜ &nbsp; `03 TEST` &nbsp; ➜ &nbsp; `04 DOCUMENT` &nbsp; ➜ &nbsp; `05 IMPROVE`
+**Focus:** Email security · Python · Defensive analysis
 
-</div>
+A defensive email triage tool that examines selected headers, extracts URLs without visiting them, identifies potential phishing indicators, applies explainable heuristic risk scoring, and generates structured JSON reports.
 
-I value responsible security research, clear documentation, reproducible tests, and continuous improvement.
+[View Project →](https://github.com/VenkatSec/phishing-email-analysis-lab)
+
+---
+
+## Technical Toolkit
+
+**Languages:** Python
+
+**Security tools:** Nmap
+
+**Security concepts:** Password hashing, cryptography, network reconnaissance, email threat indicators
+
+**Workflow:** Git · GitHub · Automated testing · Technical documentation
+
+## How I Work
+
+`LEARN` → `BUILD` → `TEST` → `DOCUMENT` → `IMPROVE`
+
+- Build projects in controlled, authorized environments.
+- Use synthetic examples where practical.
+- Test expected behavior and selected failure cases.
+- Document methodology, observations, and limitations.
+- Keep credentials, private keys, tokens, and sensitive data out of repositories.
+
+## Current Goal
+
+Continue progressing through an 18-project cybersecurity portfolio while strengthening Python, networking, defensive security analysis, and responsible application security testing.
+
+I'm focused on building demonstrable skills for entry-level cybersecurity opportunities.
 
 ---
 
 <div align="center">
 
-### <span style="color:#22D3EE">BUILDING SKILLS. SECURING SYSTEMS.</span>
+**BUILDING SKILLS. LEARNING SECURITY. MAKING PROGRESS.**
 
 *One project at a time.*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=100&color=0:06B6D4,50:0B2D5C,100:020617" width="100%" alt="Blue gradient footer"/>
 
 </div>
