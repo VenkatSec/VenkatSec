@@ -1,13 +1,12 @@
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:071A2C,50:123B5D,100:087E8B&text=CYBERSECURITY%20PORTFOLIO&fontColor=FFFFFF&fontSize=34&fontAlignY=38&desc=PYTHON%20%7C%20BLUE%20TEAM%20%7C%20ETHICAL%20HACKING&descSize=13&descAlignY=58" width="100%" alt="Cybersecurity portfolio banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:102A43,45:1F6B78,100:4C8C78&text=CYBERSECURITY%20PORTFOLIO&fontColor=FFFFFF&fontSize=32&fontAlignY=38&desc=SOC%20%7C%20BLUE%20TEAM%20%7C%20PYTHON%20%7C%20SECURITY%20ANALYSIS&descSize=12&descAlignY=58" width="100%" alt="Cybersecurity portfolio banner"/>
 
-### Learn. Build. Test. Document. Improve.
+### Learn · Build · Test · Document · Improve
 
-**Building practical cybersecurity skills through hands-on projects.**
+**Cybersecurity fresher | Building practical skills for entry-level SOC and Security Analyst roles**
 
-[GitHub Profile](https://github.com/VenkatSec) · [All Repositories](https://github.com/VenkatSec?tab=repositories)
+[Repositories](https://github.com/VenkatSec?tab=repositories)
 
 </div>
 
@@ -15,92 +14,87 @@
 
 ## About
 
-I'm a cybersecurity fresher building a practical portfolio through Python projects, security labs, and responsible security research.
+I'm a cybersecurity fresher developing practical skills through Python projects, defensive security labs, networking exercises, and responsible security learning.
 
-My goal is to develop the technical foundations and analytical skills needed for an entry-level cybersecurity role, with a particular interest in **SOC operations, Blue Team security, and security analysis**.
+My current career focus is **SOC Analyst / Blue Team / Junior Security Analyst**. I'm strengthening the foundations needed to understand security events, investigate indicators, document findings, and communicate technical observations clearly.
 
-I focus on learning by building, testing my work, documenting results, and understanding the limitations of the tools I use.
+I aim to represent my work accurately: projects in this portfolio are learning exercises, not claims of professional security experience.
 
-## Focus Areas
+## Current Focus
 
-| Area | Current learning focus |
+| Area | Learning and practice |
 |---|---|
-| **Blue Team & SOC** | Security analysis, threat indicators, incident response fundamentals |
-| **Python for Security** | Automation, analysis tools, testing, and reporting |
-| **Network Security** | TCP ports, service identification, network reconnaissance in authorized labs |
+| **SOC & Blue Team** | Security monitoring concepts, alert triage, threat indicators, incident response fundamentals |
+| **Python for Security** | Small analysis tools, automation, testing, structured reporting |
+| **Network Security** | TCP/IP fundamentals, ports, service identification, authorized Nmap labs |
+| **Email Security** | Phishing indicators, header review, URL analysis, defensive triage |
 | **Application Security** | Authentication, password security, web and API security fundamentals |
-| **Ethical Hacking & Bug Bounty** | Scope-aware testing, vulnerability assessment, responsible disclosure |
+| **Ethical Hacking** | Scope-aware testing, vulnerability assessment, responsible disclosure principles |
 
-## Portfolio Projects
+## Completed Portfolio Projects
 
-I've completed the following four projects as part of my planned 18-project cybersecurity portfolio.
+These are the first four completed projects in my planned 18-project learning portfolio.
 
-### 01 — Password Policy & Hashing Lab
+### 01 · Password Policy & Hashing Lab
 
-**Focus:** Password security · Python · Unit testing
+**Python · scrypt · Password verification · Unit testing**
 
-A Python lab demonstrating password policy validation, salted password hashing using `scrypt`, password verification, and automated tests.
+Demonstrates password policy checks, salted password hashing with scrypt, password verification, and tests for expected and malformed inputs.
 
-[View Project →](https://github.com/VenkatSec/password-policy-hashing-lab)
+[Explore the repository](https://github.com/VenkatSec/password-policy-hashing-lab)
 
-### 02 — Cryptography Basics with Python
+### 02 · Cryptography Basics with Python
 
-**Focus:** Encryption · AES-256-GCM · RSA-OAEP
+**Python · AES-256-GCM · RSA-OAEP · Unit testing**
 
-A hands-on demonstration of symmetric and asymmetric encryption using Python's `cryptography` library, with automated tests for core operations.
+Demonstrates authenticated symmetric encryption and RSA public-key encryption, with automated tests for round trips and selected failure cases.
 
-[View Project →](https://github.com/VenkatSec/cryptography-basics-python)
+[Explore the repository](https://github.com/VenkatSec/cryptography-basics-python)
 
-### 03 — Network Scanning with Nmap
+### 03 · Network Scanning with Nmap
 
-**Focus:** Networking · Nmap · Service identification
+**Nmap · TCP scanning · Service identification · Authorized lab**
 
-An authorized local scanning lab exploring TCP port scanning, service detection, observed results, and responsible security documentation.
+Documents a localhost scanning exercise, scan methodology, interpretation, and responsible handling of host-specific scan information.
 
-[View Project →](https://github.com/VenkatSec/network-scanning-nmap)
+[Explore the repository](https://github.com/VenkatSec/network-scanning-nmap)
 
-### 04 — Phishing Email Analysis Lab
+### 04 · Phishing Email Analysis Lab
 
-**Focus:** Email security · Python · Defensive analysis
+**Python · Email parsing · URL inspection · Defensive triage**
 
-A defensive email triage tool that examines selected headers, extracts URLs without visiting them, identifies potential phishing indicators, applies explainable heuristic risk scoring, and generates structured JSON reports.
+A local defensive analysis tool that reviews selected email headers, extracts URLs without visiting them, applies explainable heuristic checks, and creates a structured JSON report.
 
-[View Project →](https://github.com/VenkatSec/phishing-email-analysis-lab)
+[Explore the repository](https://github.com/VenkatSec/phishing-email-analysis-lab)
 
 ---
 
 ## Technical Toolkit
 
-**Languages:** Python
+- **Language:** Python
+- **Security tools:** Nmap
+- **Libraries and modules:** cryptography, hashlib, hmac, email, unittest
+- **Core concepts:** Password hashing, authenticated encryption, RSA, TCP scanning, phishing indicators
+- **Workflow:** Git, GitHub, unit testing, technical documentation
 
-**Security tools:** Nmap
+## Working Principles
 
-**Security concepts:** Password hashing, cryptography, network reconnaissance, email threat indicators
-
-**Workflow:** Git · GitHub · Automated testing · Technical documentation
-
-## How I Work
-
-`LEARN` → `BUILD` → `TEST` → `DOCUMENT` → `IMPROVE`
-
-- Build projects in controlled, authorized environments.
-- Use synthetic examples where practical.
-- Test expected behavior and selected failure cases.
-- Document methodology, observations, and limitations.
-- Keep credentials, private keys, tokens, and sensitive data out of repositories.
+- Practice only in systems and environments I own or am authorized to test.
+- Use synthetic examples for public demonstrations.
+- Keep credentials, tokens, private keys, personal data, and raw sensitive captures out of public repositories.
+- Review generated reports and terminal output before sharing.
+- Document limitations instead of overstating what a tool proves.
 
 ## Current Goal
 
-Continue progressing through an 18-project cybersecurity portfolio while strengthening Python, networking, defensive security analysis, and responsible application security testing.
+Continue the 18-project portfolio while improving practical SOC, Blue Team, networking, Python, and security analysis skills.
 
-I'm focused on building demonstrable skills for entry-level cybersecurity opportunities.
+I'm actively building toward an **entry-level SOC Analyst / Blue Team / Security Analyst opportunity**.
 
 ---
 
 <div align="center">
 
-**BUILDING SKILLS. LEARNING SECURITY. MAKING PROGRESS.**
-
-*One project at a time.*
+**BUILDING FOUNDATIONS. PRACTISING RESPONSIBLY. IMPROVING EVERY PROJECT.**
 
 </div>
